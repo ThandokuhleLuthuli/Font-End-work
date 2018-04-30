@@ -1,0 +1,283 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+#box1
+{
+    height:100vh;
+    width:100%;
+    background-image:url('anton.jpg');
+    background-size:cover;
+    display:table;
+    background-attachment:fixed;
+}
+#box4
+{
+    height:100vh;
+    width:100%;
+    /* background-image:url('white.jpg'); */
+    background-color: #47c9af; 
+    background-size:cover;
+    display:table;
+    background-attachment:fixed;
+}
+#box4 img{width:80px; height:80px; margin-left:780px; margin-top:50px;}
+#box3
+{ height: 100vh;
+  width:100%;
+  background-image:url('luca.jpg');
+background-size:cover;
+background-attachment: fixed;
+}
+#boxs
+{
+    height:100vh;
+    width:100%;
+    background-image:url('white.jpeg');
+    background-size:cover;
+    display:table;
+    background-attachment:fixed;
+}
+.content
+{
+background-color:  #47c9af;
+height: 45vh;
+width: 395px;
+margin-left:45px;
+margin-top: 40px; 
+border-radius: 7px;
+opacity: 0.7; 
+
+}
+.content img{ width:45px;height: 45px; margin-top:-60px;
+  margin-top:-21px;}
+.content2
+{
+  background-color:  #47c9af;
+  height: 45vh;
+  width: 395px;
+  margin-left:1140px;
+margin-top:40px; 
+  border-radius:7px;
+  opacity: 0.9; 
+  
+}
+#content3
+{background-color:  #47c9af;
+  height: 45vh;
+  width: 395px;
+  margin-left:535px;
+margin-bottom:600px; 
+padding-right: 25px;
+  border-radius:7px;
+  opacity: 0.9;
+   
+}
+.vl{border-right:1px solid #47c9af;height:500px;margin-right:820px; }
+h4{font-family:'vermin vibes 2'; padding-left: 350px; }
+p{font-family: 'metropolis Thin'; padding-left:350px;font-size:1.5em; }
+.vl2{border-right:1px solid  #47c9af; height:500px;margin-top:-510px; visibility: hidden; }
+.vl2 p{ font-family: 'metropolis Thin';font-size:1.5em; padding-right:320px; margin-left:550px; visibility: visible;}
+.vl3{border-right:1px solid #47c9af;height:500px;margin-right:820px;  }
+
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu {
+  width: auto;
+  border-bottom: 3px solid #47c9af;
+  font-family: 'vermin vibes 2';
+  line-height: 1;
+  margin-right:300px;
+  color: white;
+}
+#box1 #cssmenu ul li a{ color: white;}
+#cssmenu ul {
+  border-radius: 10px;
+  height:0; 
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+#cssmenu > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #444444;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#cssmenu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#cssmenu > ul > li.active > a:after,
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li > a:hover:after {
+  background: #47c9af;
+}
+#box1 #cssmenu ul .logo{
+    float:left;
+    font-family:'vermin vibes 2';
+    font-size:4em;
+    color:white;
+    padding-right: 420px;
+}
+h1{font-family:'vermin vibes 2'; color: white; text-align:center; margin-top:350px; font-size:2.9em;text-shadow: 2px 2px 2px black;    }
+h3{ font-family: 'vermin vibes 2'; color:black; font-weight: bold; text-align: center; font-size:2em; text-decoration: underline;text-shadow: 2px 2px 1px black; }
+.os{font-family: 'vermin vibes 2';color:black; padding-left:1100px; visibility:visible; }
+.pro{font-family:'vermin Vibes 2'; color:white; font-weight:bold; text-align: center; font-size:2.5em; padding-top:100px;  text-decoration:none; text-shadow: 2px 2px 1px black; }
+footer
+{
+    width:100%;
+    background-image: url('white.png');
+    height:250px;
+    position: relative;
+}
+footer a img{ 
+  width:45px;
+  height:45px;
+  
+}
+footer a img:hover{ 
+  width:55px;
+  height:55px;
+  
+}
+.icons
+{
+ margin-left:710px;
+ margin-top:45px;
+}
+footer .fp
+{
+    font-family:'vermin vibes 2'; text-align:center;
+}
+#fp{text-align:center;margin-right:320px; font-family: 'vermin vibes 2'; }
+
+.hl{border-top:1px solid #47c9af; margin-left:450px; margin-right:450px; }
+.hl2{ border-bottom:1px solid #47c9af;margin-left:550px; margin-right:550px;  }
+input[type=text] , input[type=email] 
+{
+height:40px;
+width:200px;
+box-sizing:border-box;
+border:none;
+border-bottom: 1px solid #074d3f ;
+font-family: 'vermin vibes 2';
+-webkit-transition:width 0.4s ease-in-out;
+transition:width 0.4s ease-in-out;
+}
+input[type=text]:focus ,input[type=email]:focus
+{
+    
+    width:250px;
+}
+textarea
+{
+height:110px;
+width:500px;
+box-sizing:border-box;
+border-radius:4px;
+border:none;
+border-bottom: 1px solid #074d3f;
+-webkit-transition:width 0.4s ease-in-out;
+transition:width 0.4s ease-in-out;
+font-family: 'vermin vibes 2';
+}
+textarea:focus
+{
+	border:4px solid #555;
+}
+input[type=submit]
+{
+   border-radius:4px;
+   width:200px;
+   height:35px;
+   background-color:#47c9af;
+   font-family: 'vermin vibes 2';
+   color:white;
+   border:none;
+  margin-left:10px;
+
+}
+input[type=submit]:hover
+{
+    background-color:#065848;
+}
+.d{border-top:1px solid white; margin-left:450px; margin-right:450px;}
+#box4 p{ text-align:center; margin-right:300px; }
+@keyframes bounce { 0% , 20%, 60%, 100% {-webkit-transform: translateY(0);transform: translate(0);} 
+40%{-webkit-transform: translateY(-200px);transform:translateY(-20px); }
+80%{-webkit-transform:translateY(-10px); transform: translateY(-10px); }
+}
+.bounce:hover{animation: bounce 1s;}
