@@ -1,0 +1,295 @@
+/*Nagigation*/
+nav li
+{
+   float:right;
+   list-style:none;
+}
+nav li a
+{ display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'lexlox';
+    font-size:1em;
+    font-weight:normal;
+}
+nav ul
+{
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    /*border-radius:5px;*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position:absolute;
+    width:100%;
+    top:0;
+		
+	
+}
+li a:hover
+{    /*background-color:grey;*/
+    /*text-shadow:1px 1px 2px rgba(0,0,0,0.5);*/
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+    border-radius: 4px;
+}
+.logo
+{
+    float:left;
+    font-family:'lexlox';
+    font-size:3em;
+	color:black;
+}
+
+
+#msform {
+        width: 600px;
+        margin: 120px auto;
+        text-align: center;
+        position: relative;
+}
+#msform fieldset
+{
+        background: white;
+        border: 0 none;
+        border-radius: 3px;
+        box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+        padding: 20px 30px;
+        box-sizing: border-box;
+        width: 80%;
+        margin: 0 10%;
+        /* for stacking input fieldsets above each other*/
+        position: absolute;
+}
+ /*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type)
+{
+display: none;
+}
+ /*inputs*/
+#msform input, #msform textarea 
+{
+padding: 15px;
+border: 1px solid #ccc;
+border-radius: 3px;
+margin-bottom: 10px;
+width: 80%;
+box-sizing: border-box;
+font-family: lexlox;
+color: #2C3E50;
+font-size: 13px;
+-webkit-transition:width 0.4s ease-in-out;
+transition:width 0.4s ease-in-out;
+}
+#msform input:focus , #msform textarea:focus
+{
+    width: 100%; 
+}
+.fform input,.fform textarea
+{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 80%;
+    box-sizing: border-box;
+    font-family: lexlox;
+    color: #2C3E50;
+    font-size: 13px;
+    margin-bottom: 10px;
+
+    -webkit-transition:width 0.4s ease-in-out;
+    transition:width 0.4s ease-in-out;
+    
+}
+.fform input:focus , .fform textarea:focus
+{
+    width: 100%; 
+}
+
+
+#msform .action-button
+{
+        width: 100px;
+        background: #27AE60;
+        font-weight: bold;
+        color: white;
+        border: 0 none;
+        border-radius: 1px;
+        cursor: pointer;
+        padding: 10px 5px;
+        margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus
+ { 
+ box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+ }
+ .fform{ width: 300px;   text-align:left;} 
+ .fform fieldset{  background: #f9f9f9;
+    border: 0 none;
+    border-radius: 3px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 300px;
+    /* margin: 0 10%; */
+    /* for stacking input fieldsets above each other*/
+    position:fixed; 
+
+
+}
+ .fform fieldset:not(:first-of-type) { display: none; }
+ .fform fieldset input[type=submit]:hover
+ {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+ }
+ #map{height:300px; width: 100%;  background-color: yellow;}
+
+
+
+ /*headings*/
+.fs-title{
+font-size: 15px;
+text-transform: uppercase;
+color: #2C3E50;
+margin-bottom: 10px;
+font-family: lexlox;
+font-size:1.5em; 
+}
+ /*Subtitles*/
+.fs-subtitle
+        {
+        font-weight: normal;
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        }
+
+#progressbar li 
+{
+list-style-type: none;
+color: white;
+text-transform: uppercase;
+font-size: 9px;
+width: 33.33%;
+float: left;
+position: relative;
+}
+#progressbar li:before 
+{
+content: counter(step);
+counter-increment: step;
+width: 20px;
+line-height: 20px;
+display: block;
+font-size: 10px;
+color: #333;
+background: white;
+border-radius: 3px;
+margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after
+{
+content: '';
+width: 100%;
+height: 2px;
+background: white;
+position: absolute;
+left: -50%;
+top: 9px;
+z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after
+{
+/*connector not needed before the first step*/
+ content: none;
+}
+/*marking active/completed steps*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after
+{
+background: #27AE60;
+color: white;
+}
+.fp a { text-decoration: none; color:black;font-family:lexlox; }
+.fp a:hover {text-decoration: underline; } 
+footer{width:100%;
+    background:#f9f9f9;
+    height:300px;
+    margin-top:600px; 
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); 
+}
+.pw{
+    width:50%;
+    height:100px; 
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); 
+    background-color:white; 
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 400px;
+    margin-top:100px;
+    position:relative;
+}
+.contain
+{
+width:600px;
+height:670px;
+background-color:whitesmoke;
+border: 1px 1px 1px 1px solid;
+border-radius: 2px;
+margin-left:520px;
+margin-top:50px; 
+opacity: 0.7;
+}
+.contain .line h2
+{
+ font-family: lexlox;
+ font-size: 2em;
+ color: #27AE60;
+ text-align:center;
+ text-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+.line
+{
+    padding-right: 100px;
+    padding-left:  20px;
+    position: fixed;
+    
+}
+.line2
+{
+padding-right:20px;
+padding-left:100px;
+position:fixed;
+}
+ image{width: 100%; height:100%;}
+
+@media screen and (max-width: 1000px)
+{
+ body { font: 12px arial, sans-serif }
+  #nav { display: block }
+    }
+    @media screen and (max-width: 800px) 
+        {
+        #nav { float: none }
+        }
+        
+        @media screen and (max-width: 600px)
+        {
+    
+         #content aside {
+          float: none;
+           display: block;
+            }
+        }
+        @media screen and (orientation: landscape) 
+            {
+        #nav { float: left }
+            }
+            
+            @media screen and (orientation: portrait)
+            {
+              #nav { float: none }
+            }

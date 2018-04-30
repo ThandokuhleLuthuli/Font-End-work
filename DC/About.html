@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<title>About | Durban Cypher</title>
+ <link rel="stylesheet" href="DCcss.css" type="text/css"/>
+
+
+
+ <style type="text/css">
+  
+ /* keyframes*/
+ @keyframes layer2Anim{
+
+0%{  opacity: 0; }
+17%{ opacity: 0; }
+35%{ opacity: 1;}
+50%{opacity:1;}
+67%{opacity: 0;}
+100%{opacity: 0;}
+  }
+  @keyframes layer3Anim 
+  {
+0%{   opacity: 0;   }
+50%{opacity:0;}
+67%{opacity: 1;}
+83%{opacity:1; }
+100%{opacity: 0;}
+
+    
+  }
+
+ /* presets*/
+ *{ 
+   box-sizing: border-box;
+ }
+ html,body 
+ {
+   margin: 0;
+   padding:0;
+
+ }
+ .slideshow
+ {
+  position:relative;
+
+ }
+ .placeholder
+{
+  width: 80%;
+  visibility:hidden;
+}
+.layer1, .layer2, .layer3
+{
+  position: absolute;
+  width: 80%;
+  height:  80%;
+  top:0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 165px;
+
+}
+.layer1{
+  background-image: url(images/music.jpg);
+
+}
+.layer2{
+  background-image: url(images/view.jpg);
+  animation: layer2Anim 15s infinite;
+
+}
+.layer3{
+  background-image: url(images/12.jpg);
+  animation:layer3Anim 15s infinite;
+
+}
+
+ </style>
+</head>
+
+<body>
+<!-- <div class="sildeshow">
+<img class="placeholder" src="C:/xampp/htdocs/DC/images/music.jpg" alt="image1">
+<div class="layer1"></div>
+<div class="layer2"></div>
+<div class="layer3"></div>
+</div> -->
+
+<div class="contain"> 
+    <div class="line">
+  <h2 align="center">ABOUT </h2>
+  <hr/>  
+    </div>
+</div>
+
+</body>
+
+</html>
