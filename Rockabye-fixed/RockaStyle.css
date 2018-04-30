@@ -1,0 +1,99 @@
+
+        /*Most important is the fonts used for the h1 and h4.*/
+    
+        /*Otherwise feel free to make changes*/
+@import "acid-Font/acid.otf ";
+        body {
+            
+            margin:0;
+            padding:0;
+            width:100%; 
+            
+            }
+            html {
+            
+               box-sizing:border-box; 
+            
+            }
+            nav ul li a{text-decoration:none; font-family:'Gamja Flower', cursive; font-weight: bold; color:black; color:white; }
+            nav ul li{display:block; float:right; padding:10px;}
+            nav ul{ 
+                list-style-type: none;
+               margin: 0;
+               padding: 0;
+               overflow: hidden;
+               /*border-radius:5px;*/
+               /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+               position: relative;
+               width:100%;
+            }
+            nav
+               
+
+            .logo{ float:left;
+                font-family:'Gaegu', cursive;
+                font-size:1.5em;
+                color:white;
+                padding: -10px;
+                word-wrap: none;
+                padding-right:15px;
+                
+            }
+                text{ font-family:'Gaegu', cursive; font-size:0.9em; text-shadow: 2px 2px 1px black; }
+
+#box{ 
+    height:100vh;
+    width:100%;
+    background-image:url('img/tina.jpg');
+    background-size:cover;
+    display:table;
+    background-attachment:fixed;
+}
+#box1{ 
+    background-image:url('img/school.png');
+    display:table; 
+    /* background-size:cover;
+    display:table;
+    background-attachment:fixed; */
+}
+
+.line{padding-left:450px;padding-right:450px; }
+.about h2{font-family:'Gaegu', cursive; text-align:center;  color:rgb(170, 15, 15); text-shadow:2px 2px 1px black; }
+.about p{ text-align:center; font-size: 1.5em; font-family:'acid'; font-weight:lighter;  }
+.quote ul{list-style-image:url('img/piggy.png'); font-family:'acid'; font-size:1.5em;margin-left:550px;   }
+.quote p { text-align:center;font-size: 1.5em; font-family:'acid'; font-weight:lighter;}
+.quote text {font-size: 1.5em; font-family:'acid'; font-weight:bold;margin-left:475px;}
+.quote h2{font-family:'Gaegu', cursive; text-align:center;color:rgb(0, 82, 0);  text-shadow:2px 2px 1px black; }
+.duties ul{list-style-image:url('img/megaphone.png');  font-family:'acid'; font-size:1.5em;margin-left:740px; }
+.duties h2{font-family:'Gaegu', cursive; text-align:center; color:rgb(35, 233, 223); text-shadow:2px 2px 1px black;  }
+footer{ background-image:url('img/tina.jpg'); }
+.logo .r { font-family:'Gaegu', cursive;
+    font-size:2.5em; color:rgb(236, 236, 4); margin-right:-10px;  text-shadow:2px 2px 2px black; }
+.logo .c{font-family:'Gaegu', cursive;
+    font-size:2.5em; color:rgb(52, 223, 52); margin-right:-10px;   text-shadow:2px 2px 3px black; }
+.logo .a{font-family:'Gaegu', cursive;
+    font-size:2.5em; color:rgb(238, 54, 54);margin-right:-10px; text-shadow:2px 2px 3px black; }
+ .logo .y{font-family:'Gaegu', cursive;
+        font-size:2.5em; color:rgb(3, 35, 141);padding-right:-20px; text-shadow:2px 2px 3px black; }
+        .logo .n{ font-size:2.5em;text-shadow:2px 2px 3px black; }
+.inquire p{text-align: center; font-family:'acid'; font-weight:bold;font-size:2.1em; color:rgb(224, 5, 5); text-shadow: 1px 1px 1px black; }
+.inquire p a{ text-decoration:none; color:rgb(224, 5, 5); }
+.inquire h2{ text-align:center; font-family:'Gaegu', cursive;font-weight:bold;}
+.hl{border-top:1.5px solid bisque;  }
+a{color:white; text-decoration:none; }
+.arrow{text-align:center;margin:8% 0;  }
+.bounce{-moz-animation:bounce 2s infinite; -webkit-animation:bounce 2s infinite; animation:bounce 2s infinite; }
+@keyframes bounce
+{ 
+0% , 20% , 50% ,80% ,100% {transform:translateY(0); }
+40%{transform: translateY(-30px);}
+60%{transform: translateY(-15px);}
+}
+@media screen  and (max-width:600px) {
+    body{ font-size:88%;overflow:none;}
+    #box, #box1{float:none; width:100%; overflow:hidden;  }
+    .duties ul{list-style-image:url('img/megaphone.png');  font-family:'acid'; font-size:1.5em;margin-left:540px; }
+    .about h2{text-align:center; }
+    .about p { text-align:center; }
+
+}
