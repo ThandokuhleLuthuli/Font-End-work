@@ -1,0 +1,282 @@
+﻿body
+{
+margin: 0;
+background-image: url("tileable.jpg");
+ background-attachment:scroll;
+}
+/*Nagigation*/
+nav li
+{
+   float:right;
+   list-style:none;
+}
+nav li a
+{ display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'thrash it';
+    font-size:1.5em;
+    font-weight:bold;
+}
+nav ul
+{
+    
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    /*border-radius:5px;*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position:fixed;
+    width:100%;
+    top:0;
+	opacity:0.7;
+	filter:alpha(opacity=70)
+		
+	
+}
+li a:hover
+{    /*background-color:grey;*/
+    text-shadow:1px 1px 2px rgba(0,0,0,0.5);
+    font-size:2.5em;
+}
+.logo
+{
+    float:left;
+    font-family:'Thrash it';
+    font-size:4em;
+	color:white;
+}
+.active
+{
+	background:grey;
+}
+/*contat form*/
+.container
+{
+	width:550px;
+	height:510px;
+	text-align:center;
+	background-color:black;
+	border-radius:4px;
+	margin:0 auto;
+	margin-top:150px;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+.container img
+{ width:120px;
+height:120px;
+margin-top:-60px;
+margin-bottom:30px;
+	
+}
+label
+{
+ color:white;
+ font-family:"Thrash it";
+}
+h3
+{
+	color:white;
+	font-family:"Thrash it";
+}
+input[type=text] , input[type=email] 
+{
+height:40px;
+width:200px;
+box-sizing:border-box;
+border-radius:4px;
+border:none;
+-webkit-transition:width 0.4s ease-in-out;
+transition:width 0.4s ease-in-out;
+}
+
+input[type=text]:focus ,input[type=email]:focus
+{
+    border:4px solid #555;
+    width:250px;
+}
+textarea
+{
+height:110px;
+width:300px;
+box-sizing:border-box;
+border-radius:4px;
+border:none;
+-webkit-transition:width 0.4s ease-in-out;
+transition:width 0.4s ease-in-out;
+}
+textarea:focus
+{
+	border:4px solid #555;
+}
+input[type=submit]
+{
+   border-radius:4px;
+   width:65px;
+   height:35px;
+   background-color:cadetblue;
+   font-family:'lexlox';
+   color:white;
+   border:none;
+
+}
+input[type=submit]:hover
+{
+    background-color:grey;
+}
+footer
+{
+	background-color:black;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	bottom:0;
+	position:relative;
+	width:100%;
+	height:150px;
+	
+}
+.icons a img
+{ width:90px;
+height:90px;
+}
+h2{
+	font-family:"Thrash it";
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	color:white;
+	font-size:3.5em;
+	
+}
+.disqus_thread
+{
+ text-decoration-style:none;
+}
+p a
+{
+text-decoration:none;
+color:white;
+font-size:1.5em;
+opacity:0.7;
+filter:alpha((opacity=70;));
+border-radius:5px;
+font-family:"Arial";
+border:1.5px solid white;
+}
+.fly-in-text{
+     list-style:none;
+     position:absolute;
+     left:50%;
+     top:50%;
+    transform:translateX(-50%) translateY(-50%);
+ }
+ 
+.fly-in-text li
+{
+    color:white;
+    display:inline-block;
+    margin-right:50px;
+    font-family:'Thrash it';
+    font-size:8.5em;
+    font-weight:350;
+    opacity:0.9;
+    transition:all 2.5s ease; 
+    text-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+
+}
+.fly-in-text li:last-child
+{
+     margin-right:0;
+
+}
+.fly-in-text.hidden li
+{
+opacity: 0;
+}
+
+.fly-in-text.hidden li:nth-child(1){transform:translateX(-200px) translateY(-200px)}
+.fly-in-text.hidden li:nth-child(2){ transform:translateX(20px) translateY(100px)}
+.fly-in-text.hidden li:nth-child(3){transform:translateX(-150px) translateY(-80px)}
+.fly-in-text.hidden li:nth-child(4){transform: translateX(10px) translateY(-200px)}
+.fly-in-text.hidden li:nth-child(5){transform: translateX(-300px) translateY(-200px)}
+.fly-in-text.hidden li:nth-child(6){transform:translateX(20px) translateY(-20px)}
+.fly-in-text.hidden li:nth-child(7){transform: translateX(30px) translateY(200px)}
+
+#instafeed img
+{
+  padding:5px;
+  width:200px;
+  height:200px;
+}
+.p{
+  text-align:center;
+  margin-top:150px;
+  color:white;
+  font-size:5em;
+   text-shadow:6px 6px 7px rgba(0,0,0,0.5);
+   font-family:'Times New Roman';
+   opacity:0.9;
+   
+}
+ul.w{font-size: 10em;}
+.abt{ font-family:"Thrash it"; text-align: center; }
+section{
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    display:block;
+    width: 70%;
+    height: 500px;
+    background-color:rgba(82, 78, 78, 0.986);  
+    opacity:0.7;
+    border-radius: 3px;
+}
+section img{
+    width:120px;
+    height:120px;
+    margin-top:-60px;
+    margin-bottom:30px;
+
+}
+section img:hover {  width:150px;
+    height:150px;
+    margin-top:-60px;
+    margin-bottom:30px;}
+
+ #sec2{ box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    display:block;
+    width: 40%;
+    height: 350px;
+    background-color:rgba(65, 60, 60, 0.986);  
+    opacity:0.7;
+    border-radius: 3px;
+    margin-left: 840px;
+    
+ }
+
+ #sec2 img{
+    width:120px;
+    height:120px;
+    margin-top:-60px;
+    margin-bottom:30px;
+    margin-left: 520px;
+
+ }
+ #sec2 img:hover{
+    width:150px;
+    height:150px;
+    margin-top:-60px;
+    margin-bottom:30px;
+    margin-left: 520px;
+
+ }
+
+
+
+
+
+
+
+
